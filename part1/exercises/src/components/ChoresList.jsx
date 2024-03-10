@@ -6,11 +6,11 @@ export default function ChoresList () {
    return (
       <div>
          <h3 className = {classes.choresHeading}>Chores I Want To Do Today</h3>
-         <ol>
+         <ul>
             <li className={classes.choresText}>Wash Clothes</li>
             <li className={classes.choresText}>Wash Dishes</li>
             <li className={classes.choresText}>Wash Car</li>
-         </ol>
+         </ul>
       </div>
    );
 }

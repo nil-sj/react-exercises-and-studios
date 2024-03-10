@@ -5,9 +5,9 @@ export default function HobbyLinks() {
   return (
     <div>
         <h3>Hobby List</h3>
-        <a href={hobbyLinks[0]}>Wood Working for Mere Mortals</a>
+        <a href={hobbyLinks[0]} style={{backgroundColor: 'lightBlue', lineHeight: '200%'}}>Wood Working for Mere Mortals</a>
         <br/>
-        <a href={hobbyLinks[1]}>Instructables</a>
+        <a href={hobbyLinks[1]} style={{backgroundColor: 'lightBlue', lineHeight: '200%'}}>Instructables</a>
     </div>
   );
 }

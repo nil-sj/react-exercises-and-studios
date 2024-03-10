@@ -1,3 +1,8 @@
+.movieListDiv {
+   border: 1px solid grey;
+   padding: 0 2rem;
+}
+
 .movieText {
    text-align: left;
    color: green;
