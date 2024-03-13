@@ -8,13 +8,13 @@ function RecipeAuthor() {
     let authorName = 'MizzNezz';
 
     return (
-        <div className = {styles.recipeAuthorBlock}>
+        <div className = {styles.recipeAuthorBlock}> 
             <img 
-                src={authorPhoto} 
+                src={authorPhoto}
                 alt="Profile Photo of MizzNezz" 
                 className={styles.imageUpdates} 
                 width="100"
-                style={{ borderRadius: '50%' }}
+                style={{borderRadius: '50%'}} 
             />
             <div>
                 <h3>{authorName}</h3>
