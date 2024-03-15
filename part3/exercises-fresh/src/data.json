@@ -1,0 +1,34 @@
+{ 
+    "projects": [
+        {
+            "canvas": "Cream Bow",
+            "designer": "Abigail Cecile",
+            "photoUrl": "https://www.abigailcecile.com/cdn/shop/products/CreamBowListingPhoto_101f3583-32f4-4a36-ae74-5619b45e04d9_5000x.jpg",
+            "alt": "Cream Bow Needlepoint"
+        },
+        {
+            "canvas": "Hummingbird Drama",
+            "designer": "Target Online",
+            "photoUrl": "https://target.scene7.com/is/image/Target/GUEST_2a6af7ce-83bd-473f-84e2-eb5e25db555c",
+            "alt": "Hummingbird Drama Needlepoint"
+        },
+        {
+            "canvas": "Sunny Sunday",
+            "designer": "Unwind Studio",
+            "photoUrl": "https://cdn.shopify.com/s/files/1/0270/2547/3618/files/needlepoint_canvas_color_intersections.jpg",
+            "alt": "Sunny Sunday Needlepoint"
+        },
+        {
+            "canvas": "Christmas Decor",
+            "designer": "Cook Frank Studio",
+            "photoUrl": "https://cdn.shopify.com/s/files/1/0576/3285/0098/files/IMG_1106_240x240.jpg",
+            "alt": "Christmas Decor Needlepoint"
+        },
+        {
+            "canvas": "Victorian",
+            "designer": "Poppy Monk",
+            "photoUrl": "https://poppymonkneedlepointkits.com/cdn/shop/products/victorian-cross-stitch-needlepoint-fruit-MAIN.jpg",
+            "alt": "Victorian Needlepoint"
+        }
+    ]
+}
