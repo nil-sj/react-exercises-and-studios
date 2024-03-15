@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.pageHeading {
+  text-align: center;
+}
+
+.cardsContainer {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+}

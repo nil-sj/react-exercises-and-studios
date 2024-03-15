@@ -13,5 +13,24 @@
       "heavy cream",
       "milk"
     ]
+  },
+  {
+    "name": "Easy Homemade Pizza",
+    "author": "Mizz Nezz",
+    "description": "Pizza from scratch in under an hour. Much better than the ones you buy! Use your favorite toppings.",
+    "website": "https://www.food.com/recipe/easy-and-quick-homemade-pizza-22754",
+    "recipeImage": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_3:2/v1/img/recipes/22/75/4/6SPX9PQ6WWdM49K06A1A_pizzaaa.jpg",
+    "authorImage": "https://img.sndimg.com/food/image/upload/fl_progressive,c_fill,q_80,h_202,w_202/v1/gk-static/gk/img/avatar/pasta.png",
+    "ingredients": [
+      "flour", 
+      "salt", 
+      "sugar", 
+      "fast rise yeast", 
+      "water",
+      "oil",
+      "tomato sauce",
+      "cheese",
+      "toppings as per choice"
+    ]
   }
 ]

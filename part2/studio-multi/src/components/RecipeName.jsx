@@ -1,9 +1,9 @@
-import recipeData from "./recipe.json";
-
-function RecipeName() {
-  // return recipedata;
+function RecipeName(props) {
   return (
-    <h1>{recipeData[0].name}</h1>
+    <>
+      <h1>{props.name}</h1>
+      <p>{props.description}</p>
+    </>
   );
 }
 

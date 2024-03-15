@@ -1,12 +1,10 @@
-import recipeData from "./recipe.json";
-
-function IngredientList() {
+function IngredientList(props) {
   
   return (
     <div>
       <h3>Ingredients</h3>
       <ul>
-        {recipeData[0].ingredients.map((item, index) => <li key={index}>{item}</li>)}
+        {props.ingredients.map((item, index) => <li key={index}>{item}</li>)}
       </ul>
     </div>
   );

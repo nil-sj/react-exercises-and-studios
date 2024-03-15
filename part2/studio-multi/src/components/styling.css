@@ -1,3 +1,8 @@
+.card {
+  background-color: antiquewhite;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  padding: 1rem 1rem
+}
 
 #saveButton {
    background-color: red;

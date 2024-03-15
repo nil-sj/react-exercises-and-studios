@@ -1,10 +1,9 @@
-import recipeData from "./recipe.json";
 import "./styling.css";
 
-function RecipeImage() {
+function RecipeImage(props) {
    return (
     <div>
-      <img src={recipeData[0].recipeImage} alt={recipeData[0].name} className={"recipeImage"} />
+      <img src={props.imageUrl} alt={props.alt} className="recipeImage" />
     </div>
    );
 }

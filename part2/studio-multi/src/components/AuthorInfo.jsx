@@ -1,11 +1,10 @@
-import recipeData from "./recipe.json";
 import "./styling.css";
 
-function AuthorInfo() {
+function AuthorInfo(props) {
 
-  const recipeAuthor = <div>{recipeData[0].author}</div>;
-  const recipeAuthorImage = <img src={recipeData[0].authorImage} className={'authorImage'} />;
-  const recipeWebsite = <a href={recipeData[0].website}>Author Website</a>;
+  const recipeAuthor = <div>{props.name}</div>;
+  const recipeAuthorImage = <img src={props.profilePic} className={'authorImage'} alt={props.name}/>;
+  const recipeWebsite = <a href={props.link}>Author Website</a>;
 
   return (
     <div>
